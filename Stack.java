@@ -47,13 +47,13 @@ public class Stack {
 	}
 	
 	public static void main(String[] args) {
-		Stack stack = new Stack(5);  
-		stack.push(1);
+	    Stack stack = new Stack(5);  
+	    stack.push(1);
 	    stack.push(2);
 	    stack.push(3);
 	    stack.push(4);
-        System.out.println("Before popping out");
-        stack.print();
+            System.out.println("Before popping out");
+            stack.print();
 	    stack.pop();
 	    System.out.println("After popping out");
 	    stack.print();
