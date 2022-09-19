@@ -21,7 +21,7 @@ public class Stack {
 	
 	public void pop() {
 		if(isEmpty()) {
-			System.out.println("Stack is full");
+			System.out.println("Stack is empty");
 		}
 		else {
 			head--;
